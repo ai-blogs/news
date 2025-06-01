@@ -57,7 +57,7 @@ IMAGE_OUTPUT_FOLDER = "transformed_images"
 BLOG_OUTPUT_FOLDER = "blog_drafts"
 
 # --- BLOGGER AUTHENTICATION CONFIGURATION ---
-BLOGGER_BLOG_ID = os.getenv('BLOGGER_BLOG_ID', '8169847264446388236') # Apni blog ID yahan daalo, ya .env mein.
+BLOGGER_BLOG_ID = os.getenv('BLOGGER_BLOG_ID', '2033568692716180894') # Apni blog ID yahan daalo, ya .env mein.
 
 # These will hold the JSON strings directly from GitHub Secrets OR be read from local files
 # In GitHub Actions, these will be populated from secrets.
