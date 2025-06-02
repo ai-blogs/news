@@ -2,8 +2,8 @@ name: Run Blog Creator Regularly
 
 on:
   schedule:
-    # Har 2 ghante mein chalega (0 minute par, har 2nd ghante)
-    - cron: '0 */2 * * *'
+    # Har 2 ghante mein chalega (0 minute par, har 3n ghante)
+    - cron: '0 */3 * * *'
   workflow_dispatch: # Isse aap GitHub UI se manually run kar sakte ho
 
 jobs:
